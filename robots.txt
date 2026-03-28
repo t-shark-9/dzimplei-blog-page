@@ -1,0 +1,21 @@
+# robots.txt for blog.dzimplei.app (Jimply SEO pages)
+User-agent: *
+Allow: /
+Allow: /faq
+Allow: /answers/
+Allow: /about
+Allow: /features
+Allow: /contact
+Allow: /pricing
+Allow: /app-builder
+Allow: /straightforward-design
+
+# Disallow app-internal routes from indexing
+Disallow: /app
+Disallow: /api/
+Disallow: /canvas/
+Disallow: /browser/
+Disallow: /integrations/
+
+# Sitemap
+Sitemap: https://blog.dzimplei.app/sitemap.xml
